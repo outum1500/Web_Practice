@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>display_ex</title>
+
+        <style>
+            h1{
+                margin: 30px;
+                width: 200px;
+            }
+            span{
+                margin: 30px;
+                width: 200px;
+            }
+            .block{
+                display: block;
+            }
+            .inline{
+                display: inline;
+            }
+            .inline-block{
+                display: inline-block;
+            }
+            .display_none{
+                display:none;
+            }
+            .hidden{
+                visibility:hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>제목 1</h1>
+        <h1 class="inline">제목 2</h1>
+        <h1 class="inline">제목 3</h1>
+
+        <span>스팸태그1</span>
+        <span class="block">스팸태그2</span>
+        <span class="inline-block">스팸태그3</span>
+        <div>
+            <h1 class="display_none">이 태그는 display none 이 적용 되었습니다.</h1>
+            <h1 class="hidden">이 태그는 visibility hidden 이 적용 되었습니다.</h1>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    /*
+    background-image: url(../image/cat.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 0px;
+    */
+}
+
+h1{
+    color: darkred;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow:2px 2px dimgray;
+}
+
+p{
+    font-family: "hanna", serif;
+    /* font-style: italic;*/
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+a{
+    color : grey;
+    background-color: pink;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+table, th, td{
+    font-family: "hanna", serif;
+    font-weight: 10;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto; 
+}
+
+th{
+    padding: 5px 5px;
+    background-color: gray;
+}
+
+tr:hover{
+    background-color: gainsboro;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+
+a:hover{
+    background-color: rgb(228, 155, 166);
+}
+
+a:visited{
+    color: dimgrey;
+}
+
+.color_font{
+    color:red;
+}
+
+#trip_image{
+    width: 50%;
+    height: 50%;
+}
+
+#header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#nav{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}

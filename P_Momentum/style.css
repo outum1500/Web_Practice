@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-color: lightslategray;
+    color : #FFFFFF;
+    text-shadow: 0 0 25px rgba(0,0,0,0.3);
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.center{
+    margin-top : -20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+.time {
+    font-size : 6em;
+    margin :0;
+    line-height: 1;
+    letter-spacing: -5px;
+    font-weight: 500;
+}
+
+.greeting { 
+    margin-top : -2px;
+    font-size : 1.5em;
+}
+.greeting-input, .toDo-input{
+    font-size : 2em;
+    width: 100%;
+    padding-top: 4px;
+    display: block;
+    background: 0;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    outline: 0;
+    text-align: center;
+    transition: border-color .2s ease;
+}
+
+input::placeholder{
+    color: rgb(189, 189, 189);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.display-none{
+    display: none;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    font-size: 1.5em;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+
+button{
+    margin : 10px;
+    border: solid white 2px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+@keyframes fadein{
+    from { 
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS33 Transition</title>
+        <style>
+            div.keyboard{
+                background-color:orange;
+                height: 50px;
+                width:100px;
+                margin:10px;
+                -webkit-transition: 1s;
+                transition: 1s;
+                transition-timing-function: linear;
+            }
+            div.keyboard:hover{width: 300px; height:500px;}
+        </style>
+    </head>
+
+    <body>
+        <h1>요소의 너비 변화</h1>
+        <div class="keyboard"></div>
+        <div class="keyboard"></div>
+        <div class="keyboard"></div>
+        <div class="keyboard"></div>
+        <div class="keyboard"></div>
+        <p>각 키보드 위로 마우스를 올려놔 보세요!</p>
+    </body>
+</html>
